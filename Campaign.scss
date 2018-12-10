@@ -1,0 +1,99 @@
+.right {
+top:-41px;
+right:70px;
+}
+
+.left {
+    width: 9em;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.card-title {
+    flex: 0 1 auto;
+}
+
+.card-text {
+    flex: 1 1 auto
+}
+
+.card-footer {
+    flex: 0 1 40px;
+}
+
+#root {
+  height: 100%;
+}
+
+.cardPadding {
+    padding: 35px;
+}
+
+.containerPadding {
+    padding: 0em 4em 0em 4em;
+}
+
+.campaignsList {
+    height: 20em
+}
+
+.campaigns {
+    color: white
+}
+
+.gray {
+    background-color: gray;
+}
+
+.campaignInfoRight {
+position: absolute;
+right:    117px;
+bottom:   27px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.resultCardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .resultCardContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+  }
+}
+
+.campaignsListBtn {
+    position: absolute;
+    left: 5.4em;
+}
+
+.submitMoreInfo {
+    position: absolute;
+    right: 11.75em;
+}
+
+.cancelMoreInfo {
+    position: absolute;
+    right: 5.25em;
+}
+
+.campaignPostEdit {
+    position: absolute;
+    right: 1.5em;
+}
+
+.red {
+    color: red
+}
